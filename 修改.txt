@@ -1,0 +1,42 @@
+问题：
+1. newCustomer 的客户类型 中input
+2. chance/cnew 和 rewrite的badge	
+3. sale/newexpand 的 input触发红框   
+4. sale/procedure
+
+
+
+
+
+
+<div class="noway"><li class="special"></li><span class="content">基本信息</span></div>
+
+.noway{
+  padding:0.2rem 0 0.4rem 0;
+  background:white;
+ .special{
+  width:0.4rem;
+  height:0.8rem;
+  background:blue;
+  float:left;
+  margin:0.2rem 0.3rem 0 0.3rem;
+  }
+  .content{
+    font-size:0.7rem;
+    font-weight:bold;
+  }
+}
+
+
+<el-collapse>
+  <el-collapse-item title='基本信息'>
+       <flexbox :gutter="0" wrap="wrap">
+         <flexbox-item>
+           <ul class='show' v-for='(item,index) in list' :key=index>
+           <li class='left'>{{item.key}}</li>
+           <li class='right'>{{item.value}}</li>
+           </ul>
+         </flexbox-item>
+       </flexbox>
+   </el-collapse-item>
+</el-collapse>
