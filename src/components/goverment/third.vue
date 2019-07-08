@@ -49,10 +49,9 @@ article{
  }
 }
 .decorate{
-    height:10px;
-    background:rgb(218, 218, 236);
-    margin:0.2rem 0;
-  }
+  height:10px;
+  background:rgb(218, 218, 236);
+}
 hr{
   margin:0.5rem 0;
 }
@@ -66,14 +65,13 @@ hr{
 }
 
 .noway{
-    padding-top:0.3rem;
-    .special{
-      width:0.4rem;
-      height:0.8rem;
-      background:blue;
-      float:left;
-      margin:0.2rem 0.3rem 0 0.3rem;
-    }
+  padding-top:0.3rem;
+  .special{
+    width:0.4rem;
+    height:0.8rem;
+    background:blue;
+    float:left;
   }
+}
 </style>
 

@@ -28,7 +28,7 @@
     </div>
     
 
-    <div>
+    <div class='selection'>
       <popup v-model="show" position="top">
       <section>
       <h4>管理类型</h4>
@@ -63,6 +63,7 @@
       </section>
       </popup>
     </div>
+
  </div>
 </template>
 
@@ -71,16 +72,17 @@ import { Flexbox ,FlexboxItem } from 'vux'
 import { Popup } from 'vux'
 export default {
   components:{
-    Flexbox,FlexboxItem,
+    Flexbox,
+    FlexboxItem,
     Popup,
   },
   data () {
     return {
       list:[
-        {collect:true,to:"/goverment/zfDetail",src1:'/static/star.png',id:'1',src2:'/static/star-d.png',name:'去政府详情',boss:'徐留平',date:'1953-07-15',money:'354000万元'},
-        {collect:false,to:"/business/personal",src1:'/static/star.png',id:'2',src2:'/static/star-d.png',name:'企业详情',boss:'徐留平',date:'1953-07-15',money:'354000万元'},
-        {collect:true,to:"/goverment/zfDetail",src1:'/static/star.png',id:'3',src2:'/static/star-d.png',name:'中国第一汽车',boss:'徐留平',date:'1953-07-15',money:'354000万元'},
-        {collect:false,to:"/goverment/zfDetail",src1:'/static/star.png',id:'4',src2:'/static/star-d.png',name:'中国第一汽车',boss:'徐留平',date:'1953-07-15',money:'354000万元'}
+        {collect:true,to:"/goverment/zfDetail",src1:'/static/star.png',id:'1',src2:'/static/star-d.png',name:'去政府详情',boss:'xx',date:'1953-07-15',money:'354000万元'},
+        {collect:false,to:"/business/personal",src1:'/static/star.png',id:'2',src2:'/static/star-d.png',name:'企业详情',boss:'xx',date:'1953-07-15',money:'354000万元'},
+        {collect:true,to:"/",src1:'/static/star.png',id:'3',src2:'/static/star-d.png',name:'无跳转',boss:'xx',date:'1953-07-15',money:'354000万元'},
+        {collect:false,to:"/",src1:'/static/star.png',id:'4',src2:'/static/star-d.png',name:'无跳转',boss:'xx',date:'1953-07-15',money:'354000万元'}
       ],
       img1:"../assets/star.png",
       img2:"../assets/star-d.png",

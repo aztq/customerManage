@@ -1,6 +1,5 @@
 <template>
   <div class='view'>
-    <hr>
     <div class='noway'><li class="special"></li>
       <span class='content'>客户信息</span>
     </div>

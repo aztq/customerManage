@@ -10,23 +10,23 @@
       </ul>
     </header>
     <grid :show-lr-borders="false" :show-vertical-dividers="false">
-      <grid-item link="/">
+      <grid-item>
         <img slot="icon" src="../../assets/sight.jpg">
         <span slot="label">基本信息</span>
       </grid-item>
-      <grid-item :link="{ path: '/'}">
+      <grid-item>
         <img slot="icon" src="../../assets/sight.jpg">
         <span slot="label">下属信息</span>
       </grid-item>
-      <grid-item link="/">
+      <grid-item>
         <img slot="icon" src="../../assets/sight.jpg">
         <span slot="label">拜访信息</span>
       </grid-item>
-      <grid-item link="/">
+      <grid-item>
         <img slot="icon" src="../../assets/sight.jpg">
         <span slot="label">合作信息</span>
       </grid-item>
-      <grid-item link="/">
+      <grid-item>
         <img slot="icon" src="../../assets/sight.jpg">
         <span slot="label">商机信息</span>
       </grid-item>
@@ -76,7 +76,7 @@ export default {
 </script>
 <style lang="less" scoped>
 header{
-  padding:0.3rem;
+  padding:0.3rem 0.3rem 0.8rem 0.3rem;
   background:#333d46;
   height:5rem;
   span{
