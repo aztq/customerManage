@@ -61,12 +61,14 @@ div{
   background:white;
 }
 table{
+  width:100%;
   tr{
     border-top:1px rgb(238, 209, 209) solid;
     padding:0.5rem;
+    width:100%
   }
   .left{
-    width:6rem;
+    width:30%;
     padding:0.5rem 0;
     font-size:0.65rem;
     opacity: 0.8;
@@ -74,9 +76,8 @@ table{
     color:grey;
   }
   .right{
-    padding:0 0 0 0.9rem;
     font-size:0.65rem;
-    width:73%;
+    width:65%;
   }
 }
 .decorate{

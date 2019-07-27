@@ -87,32 +87,33 @@ export default new Router({
       path: '/goverment/zfDetail',
       name: 'zfDetail',
       component: zfDetail,
-      children:[
+      children:
+      [
         {
         path:'/goverment/zfDetail/',
         component:first
-      },
-      {
-        path:'/goverment/zfDetail/fff',
-        component:()=>import('@/components/goverment/fuck')
-      },
-      {
+        },
+        {
         path:'/goverment/zfDetail/first',
         component:first
-      },{
+        },
+        {
         path:'/goverment/zfDetail/second',
         component:second
-      },{
+        },
+        {
         path:'/goverment/zfDetail/third',
         component:third
-      },{
+        },
+        {
         path:'/goverment/zfDetail/fourth',
         component:fourth
-      },{
+        },
+        {
         path:'/goverment/zfDetail/fifth',
         component:fifth
-      }
-     ]
+        }
+      ]
     },
     {
       path:'/goverment/tree',
@@ -137,19 +138,16 @@ export default new Router({
       path: '/chance/proud',
       name: 'proud',
       component: proud
-
     },
     {
       path: '/chance/cnew',
       name: 'cnew',
       component: cnew
-
     },
     {
       path: '/chance/cdetail',
       name: 'cdetail',
       component: cdetail
-
     },
     {
       path: '/chance/judge',
@@ -176,8 +174,6 @@ export default new Router({
       name: 'coonew',
       component: coonew
     },
-
-
     {
       path: '/visit/vlist',
       name: 'vlist',
@@ -198,9 +194,6 @@ export default new Router({
       name: 'increase',
       component: increase
     },
-
-
-
     {
       path: '/sale/mainPage',
       name: 'mainPage',
@@ -216,8 +209,6 @@ export default new Router({
       name: 'procedure',
       component: procedure
     },
-
-
     {
       path: '/my/my',
       name: 'my',

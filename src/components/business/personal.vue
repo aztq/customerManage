@@ -98,20 +98,22 @@ header{
   background:white;  
   padding:0 0 2.5rem 0;
   .next{
+    width:100%;
   tr{
     border-top:1px rgb(223, 189, 189) solid;
     font-size:0.6rem;
+    width:100%;
   }
   .left{
-    width:5.5rem;
+    width:30%;
     opacity: 0.5;
     padding:0.5rem;
     text-align:center;
   }
   .right{
-    width:14rem;
+    width:65%;
     font-size:0.7rem;
-    padding:0.3rem;
+    padding:0.5rem 1rem;
   }
  }
 }

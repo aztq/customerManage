@@ -59,7 +59,8 @@
         </el-collapse-item>
       </el-collapse>     
       <hr>
-        <span @click='reset()'>恢复默认</span> <button @click='exit()'>确认</button>
+        <span @click='reset()'>恢复默认</span>
+        <span class='confirm' @click='exit()'>确认</span>
       </section>
       </popup>
     </div>
@@ -264,16 +265,7 @@ section{
     span{
       font-size:0.6rem;
       color:blue;
-    }
-    button{
-      float:right;
-      color:red;
-      border:1px red solid;
-      border-radius: 5px;
-      background:white;
-      padding:0.2rem 0.8rem;
-      margin:0.3rem 0 0 0;
-      font-size:0.6rem
+      margin-right:20px
     }
 }
 
